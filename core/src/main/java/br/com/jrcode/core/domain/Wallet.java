@@ -18,7 +18,7 @@ public class Wallet {
 
     public Wallet() {}
 
-    public Wallet(BigDecimal balance, User user, LocalDateTime createdAt) {
+    public Wallet(BigDecimal balance, User user) {
         this.balance = balance;
         this.user = user;
         this.createdAt = LocalDateTime.now();
