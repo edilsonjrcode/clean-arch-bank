@@ -2,6 +2,9 @@ package br.com.jrcode.core.exception.enums;
 
 public enum ErrorCodeEnum {
     ON0001("Invalid tax number", "ON-0001"),
+    ON0002("Inavailable tax number", "ON-0002"),
+    ON0003("Inavailable email", "ON-0003"),
+    ON0004("An error occurred while creating a user", "ON-0004"),
     TR0001("Shopkeeper user not have the transfer function available", "TR-0001"),
     TR0002("Inavailable balance", "TR-0002"),
     TP0001("Inavailable pin", "TP-0001")
